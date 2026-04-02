@@ -43,17 +43,15 @@ Our experiments show that **Focal Loss outperforms BCE Loss** in terms of Dice c
 - **Size**: 314 images (800×512 pixels) with expert-annotated masks (*examples in Figure 2, p.7*).  
 - **Preprocessing**: Skull stripping, Gaussian blurring, Otsu’s thresholding; multi-plane (sagittal, axial, coronal).  
 
-
 ---
 
 ### Model Architecture
-Here is the structure of model
 
 ![model](images/Model.png)
 
 ---
 
-#### ⚙️ Implementation Details
+### Implementation Details
 - **Frameworks**: Python 3.9, TensorFlow 2.8, Keras  
 - **Environment**: Google Colab TPU acceleration  
 - **IDE**: Spyder 5.0.1  
@@ -68,7 +66,7 @@ cd Brain-Tomur-Semantic-segmentation
 pip install -r requirements.txt
 ```
 
-### citation
+### Citation
 
 If you use this code in your research, please cite our paper:
 
